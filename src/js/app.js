@@ -14,7 +14,7 @@ function createPostsMarkup(array) {
     const markup = array.map(({ id, title, content }) => {
 
         return `
-        <div class="post" id="${id}">
+        <div class="post item" id="${id}">
             <h2>${title}</h2>
             <p>${content}</p>
             <button type="button" data-action="update">Редагувати</button>

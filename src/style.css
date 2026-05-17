@@ -41,3 +41,20 @@ button {
 .pagination-btn {
   margin: 5px;
 }
+
+/* #postsContainer{
+  justify-content: center;
+  display: flex;
+  flex-basis: calc((100% - 90px) / 6);
+} */
+
+.container {
+  justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-basis: calc((100% - 80px) / 5);
+}
