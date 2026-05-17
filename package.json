@@ -1,0 +1,28 @@
+{
+  "name": "f4-hm-20-mini",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /f4-hm-19/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "server": "npx json-server db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIKITAPRO965/f4-hm-20-mini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NIKITAPRO965/f4-hm-20-mini/issues"
+  },
+  "homepage": "https://github.com/NIKITAPRO965/f4-hm-20-mini#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.15",
+    "parcel": "^2.16.4"
+  }
+}

@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+form {
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+}
+#searchInput{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.commentsContainer {
+  margin-top: 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.pagination-btn {
+  margin: 5px;
+}
